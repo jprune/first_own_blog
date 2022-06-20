@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Space+Mono&display=swap" rel="stylesheet">
 </head>
-    <body class="bg-gradient-to-br from-violet-500 to-fuchsia-300 h-screen">
+    <body class="bg-gradient-to-br from-violet-500 to-fuchsia-300">
         <header class="bg-violet-900 mx-10 mb-10 py-5 rounded-b-lg">
             <!--Div for outer box of Navbar-->
             <div class="flex flex-row">
@@ -22,7 +22,7 @@
                 <!--Outer div for 4 categories -->
                 <div class="text-white basis-3/4 text-center flex flex-row justify-around pr-5">
                     <!--Cat1-4-->
-                    <button class="border rounded-full basis-1/4 mx-1 p-2 hover:shadow-xl hover:bg-violet-600">NEWS</button>
+                    <button class="border rounded-full basis-1/4 mx-1 p-2 hover:shadow-xl hover:bg-violet-600"><a href="#post">NEWS</a></button>
                     <button class="border rounded-full basis-1/4 mx-1 p-2 hover:shadow-xl hover:bg-violet-600">CRYPTOCURRENCIES</button>
                     <button class="border rounded-full basis-1/4 mx-1 p-2 hover:shadow-xl hover:bg-violet-600">ABOUT</button>
                     <button class="border rounded-full basis-1/4 mx-1 p-2 hover:shadow-xl hover:bg-violet-600">CONTACT</button>
@@ -31,7 +31,7 @@
         </header>
         <main>
             <!--Outer Shell Newsletter-->
-            <div class="text-white grid grid-cols-2 border border-violet-700 rounded-md m-20 bg-[url('/resources/img/bg_newsletter.jpeg')]">
+            <div class="text-white grid grid-cols-2 border border-violet-700 rounded-md mx-20 mb-10 bg-[url('/resources/img/bg_newsletter.jpeg')]">
                 <h2 class="col-span-full text-center text-3xl mt-20 mb-5 font-semibold">Subscribe to stay up to date!</h2>
                 <div class="col-span-full justify-self-center">
                     <div class="grid grid-row-3">
@@ -53,9 +53,108 @@
                 </div>
             </div>
             <!--Outer Shell Reference Area-->
+            <div class="grid grid-cols-4 border rounded bg-white mx-20 p-5">
+                <h2 class="col-span-4 mb-5 font-semibold text-center">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+                    sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                </h2>
+                <!--Div for reference card-->
+                <div class="py-3 border justify-self-center rounded-md border-black">
+                    <p class="content-center">
+                        <img class="h-20" src="../resources/img/CoinMarketCap-logo.png" alt="CoinMarketCap" />
+                    </p>
+                </div>
+                <div class="py-3 border justify-self-center rounded-md border-black">
+                    <p class="text-center">
+                        <img class="h-20 px-9" src="../resources/img/2_polygon.png" alt="Polygon" />
+                    </p>
+                </div>
+                <div class="py-3 border justify-self-center rounded-md border-black">
+                    <p class="text-center">
+                        <img class="h-20 px-9" src="../resources/img/bitcoin_logo.png" alt="Bitcoin" />
+                    </p>
+                </div>
+                <div class="py-3 border justify-self-center rounded-md border-black">
+                    <p class="text-center">
+                        <img class="h-20" src="../resources/img/Ethereum-Logo.png" alt="Ethereum" />
+                    </p>
+                </div>
+            </div>
+            <!--Post Card-->
+            <div class="grid grid-cols-3 border rounded bg-white mx-20 mt-10 p-10 place-itemns-center" id="post">
+                <!--Img/Video embed-->
+                <div class="">
+                    <img class="rounded-md" src="../resources/img/Common-crypto-scams-to-watch-out-for-884x584.jpeg" alt="Bitcoin Mood Image" />
+                </div>
+                <!--Text Area-->
+                <div class="col-span-2 p-5 ml-8">
+                    <p class="leading-loose text-justify">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
+                        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum 
+                        dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+                        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam 
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum 
+                        dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+
+                        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore
+                         eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum 
+                         zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-3 border rounded place-items-center bg-white mx-20 mt-10 p-10">
+                
+                <!--Text Area-->
+                <div class="col-span-2 p-5 mr-8">
+                    <p class="leading-loose text-justify">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
+                        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum 
+                        dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+                        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam 
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum 
+                        dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+
+                        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore
+                         eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum 
+                         zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+                    </p>
+                </div>
+                <!--Img/Video embed-->
+                <div class="">
+                    <img class="rounded-md" src="../resources/img/crypto_assets1.jpeg" alt="Bitcoin Mood Image" />
+                </div>
+            </div>
+            <div class="text-white grid grid-cols-2 border border-violet-700 rounded-md mx-20 mb-10 mt-10 bg-[url('/resources/img/bg_newsletter.jpeg')]">
+                <h2 class="col-span-full text-center text-3xl mt-20 mb-5 font-semibold">Subscribe to stay up to date!</h2>
+                <div class="col-span-full justify-self-center">
+                    <div class="grid grid-row-3">
+                        <input 
+                        type="text" 
+                        name="Email-newsletter" 
+                        required 
+                        id="email-newsletter"
+                        class="rounded-sm w-72 h-8 text-violet-700" 
+                        />
+                        <label 
+                            for="email-newsletter"
+                            class="text-center mt-2"
+                        >
+                            Please enter your email
+                        </label>
+                        <button class="rounded-full border p-2 mb-20 mt-10 text-xl font-bold hover:shadow-xl hover:bg-violet-600">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
         </main>
         <footer>
-
+            <ul class="grid grid-cols-3 justify-items-center pb-14">
+                <li class="border rounded-md px-5 py-3 hover:shadow-xl hover:bg-violet-600 cursor-pointer"><a href="#">Imprint</a></li>
+                <li class="border rounded-md px-5 py-3 hover:shadow-xl hover:bg-violet-600 cursor-pointer"><a href="#">Cookie-Settings</a></li>
+                <li class="border rounded-md px-5 py-3 hover:shadow-xl hover:bg-violet-600 cursor-pointer"><a href="#">Data-Security</a></li>
+            </ul>
         </footer>
     </body>
 </html>
